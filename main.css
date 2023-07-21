@@ -1,0 +1,342 @@
+
+body {
+    margin: 0;
+    color: #505149;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+h3 {
+    color: #B3C926;
+}
+
+.about-us {
+    text-align: center;
+    margin-right: 40px;
+    margin-left: 40px;
+    border-left: #B3C926 3px solid;
+}
+
+h2 {
+    color: #B3C926;
+
+}
+h4{
+    color: white;
+}
+.logo {
+    filter: invert(1);
+}
+
+header {
+    background-color: #505149;
+    font-size: 15px;
+}
+
+footer {
+    background-color: #505149;
+    font-size: 15px;
+}
+
+.logo-location {
+
+    display: flex;
+    align-items: center;
+    font-size: 36px;
+    color: white;
+}
+
+.header-location {
+    gap: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 10px;
+
+}
+
+.header-a:hover {
+    color: #B3C926;
+}
+
+.logo-text-middle {
+    color: #F9DB4A;
+}
+
+.logo-text-middle2 {
+    color: #F9DB4A;
+    font-size: 40px;
+}
+
+.main-start {
+    background-image: url("https://images.wallpaperscraft.com/image/single/leaves_plant_green_136320_3840x2400.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px;
+    margin: 50px auto;
+    width: 75%;
+    height: 200px;
+    background-attachment: fixed;
+}
+
+.content {
+
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    text-align: center;
+    color: #B3C926;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.content-h1 {
+    font-size: 40px;
+    color: #F9DB4A;
+}
+
+.content-p {
+    border-right: #B3C926 2px solid;
+    text-align: right;
+    padding-right: 30px;
+    color: #505149;
+    font-size: 20px;
+
+}
+
+/* Стили для кнопки */
+button {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #363636;
+    background-color: #F9DB4A;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: #F9DB4A 1px solid;
+    border-radius: 10px;
+}
+
+.location-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button:hover {
+    color: #078600;
+}
+
+.photo-attachment {
+    margin: 50px auto;
+    width: 75%;
+    height: 200px;
+    background-image: url("img/livingroom.jpg");
+    background-attachment: fixed;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.photo-attachment2 {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: 200px;
+    background-image: url("img/homeofice.jpg");
+    background-attachment: fixed;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+
+}
+
+/* Стили для услуг */
+.services {
+    background-image: url("https://img.freepik.com/free-photo/design-space-paper-textured-background_53876-42312.jpg?w=360");
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    padding: 150px;
+    margin: 50px auto;
+    width: 75%;
+
+
+
+}
+
+/* Стили для отдельных услуг */
+.service {
+    margin: 7px;
+    max-width: 300px;
+    text-align: center;
+    background-color: white;
+    padding: 17px;
+    align-items: baseline;
+    border-radius: 20px;
+    font-size: 20px;
+
+}
+.services h2{
+    color: #505149;
+}
+
+.service img {
+    max-width: 200px;
+    height: auto;
+    transition: 1s linear;
+}
+.service img:hover{
+    max-width: 250px;
+}
+/* Стили для контактной формы */
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    text-align: center;
+}
+
+.contact-location {
+    background-image: url("https://ministryofcurry.com/wp-content/uploads/2020/03/curry-leaves-3-850x1275.jpg");
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+/* Стили для формы */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+label {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+.slider {
+    position: relative;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 960px; /* (300px + 20px) * 3 */
+}
+
+.slide {
+    width: 300px;
+    margin-right: 20px;
+}
+
+.buttons {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.project-gallery {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: start;
+    background-image: url("https://img.freepik.com/free-photo/top-view-of-green-leaves_23-2148183871.jpg?w=2000");
+    background-repeat: no-repeat;
+
+
+}
+
+.h2-loc {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.project {
+    flex: 0 0 calc(20% - 20px);
+    margin-bottom: 40px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    opacity: 90%;
+}
+
+.project img {
+    width: 90%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+    transition: 0.2s linear;
+}
+
+.project img:hover {
+    width: 100%;
+}
+
+.project h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.footer-flex {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+}
+
+.footer-location {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 15px;
+
+}
+label{
+    color: #B3C926;
+}
